@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import style from "../../../styles.module.scss";
 
 //import any components needed
 import NumberButton from "./NumberButton.js";

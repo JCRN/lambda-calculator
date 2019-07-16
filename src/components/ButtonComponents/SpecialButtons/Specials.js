@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import style from "../../../styles.module.scss";
 
 //import any components needed
 import SpecialButton from "./SpecialButton.js";
@@ -10,7 +11,7 @@ const Specials = () => {
   const [specialState, setSpecialState] = useState(specials);
 
   return (
-    <div>
+    <div className={style.specialBtnContainer}>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/

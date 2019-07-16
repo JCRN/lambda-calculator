@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import style from "./styles.module.scss";
 
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
@@ -20,7 +20,7 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
   return (
-    <div className="container">
+    <div className={style.container}>
       <Logo />
       <div className="App">
         {

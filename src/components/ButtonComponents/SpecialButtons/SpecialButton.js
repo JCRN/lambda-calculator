@@ -10,3 +10,5 @@ const SpecialButton = ({ special }) => {
     </>
   );
 };
+
+export default SpecialButton;

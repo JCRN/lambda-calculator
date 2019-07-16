@@ -10,3 +10,5 @@ const OperatorButton = ({ operator }) => {
     </>
   );
 };
+
+export default OperatorButton;

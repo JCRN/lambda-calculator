@@ -1,7 +1,12 @@
 import React from "react";
 import "./App.css";
+
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
+import Numbers from "./components/ButtonComponents/NumberButtons/Numbers.js";
+import Operators from "./components/ButtonComponents/OperatorButtons/Operators.js";
+import Specials from "./components/ButtonComponents/SpecialButtons/Specials.js";
+import Display from "./components/DisplayComponents/Display.js";
 
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
